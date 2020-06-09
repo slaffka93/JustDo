@@ -1,0 +1,53 @@
+<start-page [contentControl]="content"></start-page>
+
+<ng-template #content>
+  <div class="flex-full-center">
+    <form [formGroup]="signUpForm"
+          novalidate
+          (submit)="onSubmit()">
+      <label class="comfortaa-font"
+             style="margin-bottom: 78px; font-size: 24px">Sign Up</label>
+      <div class="flex-column input-validate">
+        <input class="input-text full-width sfpro-font"
+               type="email"
+               placeholder="E-mail"
+               formControlName="email" />
+        <label class="hint"
+               [style.visibility]="getControlInvisibility('email') ? 'visible' : 'hidden'">
+          This address does not exist
+        </label>
+      </div>
+      <div class="flex-column input-validate">
+        <input class="input-text full-width sfpro-font"
+               type="text"
+               placeholder="Password"
+               formControlName="password" />
+        <label class="hint"
+               [style.visibility]="getControlInvisibility('password') ? 'visible' : 'hidden'">
+          The password must contain capital letters
+        </label>
+      </div>
+      <div class="flex-column input-validate"
+           style="margin-bottom: 48px !important">
+        <input class="input-text full-width sfpro-font"
+               type="text"
+               placeholder="Confirm password"
+               formControlName="confirmPassword" />
+        <label class="hint"
+               [style.visibility]="(!checkConfirmedPassword() && getControlInvisibility('confirmPassword'))
+               ? 'visible' : 'hidden'">
+          Password do not match
+        </label>
+      </div>
+      <input class="input-btn sfpro-font"
+             type="submit"
+             value="Sign Up"
+             style="margin-bottom: 35px !important" />
+    </form>
+    <div class="flex sfpro-font grey">
+      <label style="margin-right: 5px">I already have an account.</label>
+      <a [routerLink]="['/sign-in']">Sign In</a>
+    </div>
+    <has-account></has-account>
+  </div>
+</ng-template>

@@ -1,0 +1,146 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+body {
+  line-height: 1 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-full-center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grey {
+  color: #BBBBC7 !important;
+}
+
+.hint {
+  margin-top: 10px;
+  color: #F24A3C;
+  font-size: 12px;
+  visibility: hidden;
+}
+
+.sfpro-font {
+  color: #212020;
+  font-family: 'SFProText';
+  font-size: 16px;
+}
+
+.comfortaa-font {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.input-btn {
+  max-width: 257px;
+  width: 35%;
+  height: 47px;
+  background: transparent linear-gradient(238deg, #2F80ED 0%, #56CCF2 100%) 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  border: 0px;
+  color: white;
+}
+
+.input-validate {
+  width: 59%;
+  max-width: 427px;
+  margin-bottom: 18px;
+  align-items: flex-end;
+}
+
+.input-text {
+  border-width: 0 0 1px 0;
+  border-color: #BBBBC7;
+  padding-bottom: 12px;
+}
+
+  .input-text:focus {
+    color: #212020;
+  }
+
+.header {
+  margin: 30px 0px;
+  color: #2F80ED;
+  font-family: 'Comfortaa'
+}
+
+.text {
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  color: #1F1C1C;
+}
+
+.text-block {
+  padding: 45px 51px;
+  flex-direction: column;
+}
+
+input:focus {
+  outline: 0;
+  outline-color: transparent;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(assets/fonts/ofont.ru_Comfortaa.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SFProText';
+  src: url(assets/fonts/SFUIDisplay-Medium.ttf) format('truetype');
+}
