@@ -6078,3 +6078,1762 @@ System.AggregateException: One or more errors occurred. (The remote party closed
 --- End of stack trace from previous location where exception was thrown ---
    at JustDo.LoggerMiddleware.Invoke(HttpContext context) in C:\Users\vyach\source\repos\JustDo\LoggerMiddleware.cs:line 42
    at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2020-06-09 09:49:55.568 +03:00 [INF] User profile is available. Using 'C:\Users\vyach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-09 09:49:56.365 +03:00 [INF] Starting @angular/cli on port 56690...
+2020-06-09 09:49:56.663 +03:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+ ---> System.Net.Sockets.SocketException (10048): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2020-06-09 09:50:14.434 +03:00 [INF] User profile is available. Using 'C:\Users\vyach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-09 09:50:14.847 +03:00 [INF] Starting @angular/cli on port 56718...
+2020-06-09 09:50:14.989 +03:00 [INF] Now listening on: https://localhost:5001
+2020-06-09 09:50:14.995 +03:00 [INF] Now listening on: http://localhost:5000
+2020-06-09 09:50:14.996 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-09 09:50:14.999 +03:00 [INF] Hosting environment: Development
+2020-06-09 09:50:14.999 +03:00 [INF] Content root path: C:\Users\vyach\source\repos\JustDo
+2020-06-09 09:50:15.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-06-09 09:50:16.039 +03:00 [INF] HTTP GET / called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000001",
+  "Body": null
+}
+2020-06-09 09:50:21.425 +03:00 [ERR] Browserslist: caniuse-lite is outdated. Please run the following command: `npm update`
+
+2020-06-09 09:50:26.012 +03:00 [INF] > justdo@0.0.0 start C:\Users\vyach\source\repos\JustDo\ClientApp
+> ng serve "--port" "56718"
+
+i я╜вwdsя╜г: Project is running at http://localhost:56718/webpack-dev-server/
+
+2020-06-09 09:50:31.046 +03:00 [INF] i я╜вwdsя╜г: webpack output is served from /
+i я╜вwdsя╜г: 404s will fallback to //index.html
+
+
+2020-06-09 09:50:31.050 +03:00 [INF] chunk {main} main.js, main.js.map (main) 57.3 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 159 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.47 MB [initial] [rendered]
+Date: 2020-06-09T06:50:31.045Z - Hash: 3a75eeba4445fa7189ff - Time: 9186ms
+
+2020-06-09 09:50:31.112 +03:00 [INF] ** Angular Live Development Server is listening on localhost:56718, open your browser on http://localhost:56718/ **
+i я╜вwdmя╜г: Compiled successfully.
+
+2020-06-09 09:50:36.730 +03:00 [INF] HTTP GET / responded
+{
+  "Elapsed": "20721.5239 ms",
+  "Status": "200",
+  "RequestId": "0HM0C85EL98U3:00000001"
+}
+2020-06-09 09:50:36.744 +03:00 [INF] Request finished in 20771.2758ms 200 text/html; charset=UTF-8
+2020-06-09 09:50:36.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-06-09 09:50:36.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:50:36.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-06-09 09:50:36.786 +03:00 [INF] HTTP GET /polyfills.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000005",
+  "Body": null
+}
+2020-06-09 09:50:36.786 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000003",
+  "Body": null
+}
+2020-06-09 09:50:36.786 +03:00 [INF] HTTP GET /runtime.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000007",
+  "Body": null
+}
+2020-06-09 09:50:36.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-06-09 09:50:36.796 +03:00 [INF] HTTP GET /polyfills.js responded
+{
+  "Elapsed": "9.5958 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000005"
+}
+2020-06-09 09:50:36.797 +03:00 [INF] HTTP GET /vendor.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000009",
+  "Body": null
+}
+2020-06-09 09:50:36.801 +03:00 [INF] Request finished in 40.6318ms 304 
+2020-06-09 09:50:36.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-06-09 09:50:36.807 +03:00 [INF] HTTP GET /main.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:0000000B",
+  "Body": null
+}
+2020-06-09 09:50:36.810 +03:00 [INF] HTTP GET /vendor.js responded
+{
+  "Elapsed": "13.1020 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000009"
+}
+2020-06-09 09:50:36.814 +03:00 [INF] Request finished in 18.2781ms 304 
+2020-06-09 09:50:38.809 +03:00 [INF] HTTP GET /runtime.js responded
+{
+  "Elapsed": "2023.5836 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000007"
+}
+2020-06-09 09:50:38.817 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "2031.5444 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000003"
+}
+2020-06-09 09:50:38.820 +03:00 [INF] HTTP GET /main.js responded
+{
+  "Elapsed": "2013.5218 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:0000000B"
+}
+2020-06-09 09:50:38.822 +03:00 [INF] Request finished in 2060.5238ms 304 
+2020-06-09 09:50:38.828 +03:00 [INF] Request finished in 2067.226ms 304 
+2020-06-09 09:50:38.834 +03:00 [INF] Request finished in 2030.28ms 304 
+2020-06-09 09:50:39.208 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/logo.svg  
+2020-06-09 09:50:39.208 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/bg.png  
+2020-06-09 09:50:39.210 +03:00 [INF] HTTP GET /assets/bg.png called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:0000000F",
+  "Body": null
+}
+2020-06-09 09:50:39.211 +03:00 [INF] HTTP GET /assets/logo.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:0000000D",
+  "Body": null
+}
+2020-06-09 09:50:39.218 +03:00 [INF] HTTP GET /assets/bg.png responded
+{
+  "Elapsed": "7.7096 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:0000000F"
+}
+2020-06-09 09:50:39.219 +03:00 [INF] HTTP GET /assets/logo.svg responded
+{
+  "Elapsed": "9.8231 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:0000000D"
+}
+2020-06-09 09:50:39.224 +03:00 [INF] Request finished in 15.3552ms 304 
+2020-06-09 09:50:39.229 +03:00 [INF] Request finished in 21.9671ms 304 
+2020-06-09 09:50:39.276 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ofont.ru_Comfortaa.ttf  
+2020-06-09 09:50:39.277 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/SFUIDisplay-Medium.ttf  
+2020-06-09 09:50:39.278 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000011",
+  "Body": null
+}
+2020-06-09 09:50:39.279 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000013",
+  "Body": null
+}
+2020-06-09 09:50:39.283 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf responded
+{
+  "Elapsed": "5.5193 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000011"
+}
+2020-06-09 09:50:39.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685439272  
+2020-06-09 09:50:39.292 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf responded
+{
+  "Elapsed": "12.9427 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000013"
+}
+2020-06-09 09:50:39.301 +03:00 [INF] Request finished in 24.2927ms 304 
+2020-06-09 09:50:39.295 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000015",
+  "Body": null
+}
+2020-06-09 09:50:39.294 +03:00 [INF] Request finished in 17.8015ms 304 
+2020-06-09 09:50:39.312 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685439272 responded
+{
+  "Elapsed": "16.6989 ms",
+  "Status": "200",
+  "RequestId": "0HM0C85EL98U3:00000015"
+}
+2020-06-09 09:50:39.318 +03:00 [INF] Request finished in 27.1075ms 200 application/json; charset=UTF-8
+2020-06-09 09:50:39.342 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/156/vbmf0xb0/websocket  
+2020-06-09 09:50:39.343 +03:00 [INF] HTTP GET /sockjs-node/156/vbmf0xb0/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U4:00000001",
+  "Body": null
+}
+2020-06-09 09:50:40.072 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/156/qw4kw25k/xhr_streaming?t=1591685440045  0
+2020-06-09 09:50:40.077 +03:00 [INF] HTTP POST /sockjs-node/156/qw4kw25k/xhr_streaming called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000017",
+  "Body": null
+}
+2020-06-09 09:50:40.078 +03:00 [INF] HTTP GET /sockjs-node/156/vbmf0xb0/websocket responded
+{
+  "Elapsed": "735.4149 ms",
+  "Status": "200",
+  "RequestId": "0HM0C85EL98U4:00000001"
+}
+2020-06-09 09:50:40.085 +03:00 [INF] Request finished in 743.8857ms 0 
+2020-06-09 09:50:50.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/back.svg  
+2020-06-09 09:50:50.224 +03:00 [INF] HTTP GET /assets/back.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000019",
+  "Body": null
+}
+2020-06-09 09:50:52.236 +03:00 [INF] HTTP GET /assets/back.svg responded
+{
+  "Elapsed": "2012.3303 ms",
+  "Status": "200",
+  "RequestId": "0HM0C85EL98U3:00000019"
+}
+2020-06-09 09:50:52.250 +03:00 [INF] Request finished in 2031.5627ms 200 image/svg+xml; charset=UTF-8
+2020-06-09 09:50:59.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:50:59.362 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:0000001B",
+  "Body": null
+}
+2020-06-09 09:50:59.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:50:59.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:50:59.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:50:59.414 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000023",
+  "Body": null
+}
+2020-06-09 09:50:59.413 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:0000001D",
+  "Body": null
+}
+2020-06-09 09:50:59.413 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000021",
+  "Body": null
+}
+2020-06-09 09:50:59.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:50:59.425 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:0000001F",
+  "Body": null
+}
+2020-06-09 09:51:01.382 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "2019.5471 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:0000001B"
+}
+2020-06-09 09:51:01.388 +03:00 [INF] Request finished in 2076.2045ms 304 
+2020-06-09 09:51:01.404 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:51:01.406 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C85EL98U3:00000025",
+  "Body": null
+}
+2020-06-09 09:51:01.412 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "6.5625 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000025"
+}
+2020-06-09 09:51:01.418 +03:00 [INF] Request finished in 14.1666ms 304 
+2020-06-09 09:51:01.436 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "2023.4133 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:0000001D"
+}
+2020-06-09 09:51:01.441 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "2027.5605 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:00000021"
+}
+2020-06-09 09:51:01.442 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "2027.5475 ms",
+  "Status": "200",
+  "RequestId": "0HM0C85EL98U3:00000023"
+}
+2020-06-09 09:51:01.442 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "2016.9671 ms",
+  "Status": "304",
+  "RequestId": "0HM0C85EL98U3:0000001F"
+}
+2020-06-09 09:51:01.460 +03:00 [INF] Request finished in 2048.85ms 304 
+2020-06-09 09:51:01.448 +03:00 [INF] Request finished in 2037.4045ms 304 
+2020-06-09 09:51:01.453 +03:00 [INF] Request finished in 2041.4249ms 200 application/json; charset=UTF-8
+2020-06-09 09:51:01.444 +03:00 [INF] Request finished in 2033.2231ms 304 
+2020-06-09 09:51:48.274 +03:00 [INF] User profile is available. Using 'C:\Users\vyach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-09 09:51:48.511 +03:00 [INF] Starting @angular/cli on port 56820...
+2020-06-09 09:51:48.576 +03:00 [INF] Now listening on: https://localhost:5001
+2020-06-09 09:51:48.577 +03:00 [INF] Now listening on: http://localhost:5000
+2020-06-09 09:51:48.578 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-06-09 09:51:48.579 +03:00 [INF] Hosting environment: Development
+2020-06-09 09:51:48.580 +03:00 [INF] Content root path: C:\Users\vyach\source\repos\JustDo
+2020-06-09 09:51:49.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2020-06-09 09:51:49.080 +03:00 [INF] HTTP GET / called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000001",
+  "Body": null
+}
+2020-06-09 09:51:54.576 +03:00 [ERR] Browserslist: caniuse-lite is outdated. Please run the following command: `npm update`
+
+2020-06-09 09:51:59.205 +03:00 [INF] > justdo@0.0.0 start C:\Users\vyach\source\repos\JustDo\ClientApp
+> ng serve "--port" "56820"
+
+i я╜вwdsя╜г: Project is running at http://localhost:56820/webpack-dev-server/
+
+2020-06-09 09:51:59.232 +03:00 [INF] i я╜вwdsя╜г: webpack output is served from /
+i я╜вwdsя╜г: 404s will fallback to //index.html
+
+2020-06-09 09:52:04.782 +03:00 [INF] chunk {main} main.js, main.js.map (main) 57.3 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 256 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 159 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.47 MB [initial] [rendered]
+Date: 2020-06-09T06:52:04.780Z - Hash: 3a75eeba4445fa7189ff - Time: 9817ms
+
+2020-06-09 09:52:04.784 +03:00 [INF] ** Angular Live Development Server is listening on localhost:56820, open your browser on http://localhost:56820/ **
+
+2020-06-09 09:52:04.843 +03:00 [INF] i я╜вwdmя╜г: Compiled successfully.
+
+2020-06-09 09:52:10.351 +03:00 [INF] HTTP GET / responded
+{
+  "Elapsed": "21281.3315 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000001"
+}
+2020-06-09 09:52:10.359 +03:00 [INF] Request finished in 21320.0554ms 304 
+2020-06-09 09:52:10.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-06-09 09:52:10.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:52:10.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-06-09 09:52:10.397 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000003",
+  "Body": null
+}
+2020-06-09 09:52:10.398 +03:00 [INF] HTTP GET /polyfills.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000007",
+  "Body": null
+}
+2020-06-09 09:52:10.398 +03:00 [INF] HTTP GET /runtime.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000005",
+  "Body": null
+}
+2020-06-09 09:52:10.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-06-09 09:52:10.406 +03:00 [INF] HTTP GET /vendor.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000009",
+  "Body": null
+}
+2020-06-09 09:52:10.406 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-06-09 09:52:10.408 +03:00 [INF] HTTP GET /main.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000000B",
+  "Body": null
+}
+2020-06-09 09:52:10.409 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "12.0610 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000003"
+}
+2020-06-09 09:52:10.412 +03:00 [INF] Request finished in 19.441ms 304 
+2020-06-09 09:52:10.414 +03:00 [INF] HTTP GET /vendor.js responded
+{
+  "Elapsed": "8.5714 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000009"
+}
+2020-06-09 09:52:10.418 +03:00 [INF] Request finished in 12.9457ms 304 
+2020-06-09 09:52:10.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:52:10.522 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000000D",
+  "Body": null
+}
+2020-06-09 09:52:10.526 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "3.4040 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000000D"
+}
+2020-06-09 09:52:10.529 +03:00 [INF] Request finished in 7.5537ms 304 
+2020-06-09 09:52:10.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:52:10.783 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000000F",
+  "Body": null
+}
+2020-06-09 09:52:10.794 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "10.9344 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000000F"
+}
+2020-06-09 09:52:10.797 +03:00 [INF] Request finished in 15.8146ms 304 
+2020-06-09 09:52:12.413 +03:00 [INF] HTTP GET /runtime.js responded
+{
+  "Elapsed": "2014.8491 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000005"
+}
+2020-06-09 09:52:12.415 +03:00 [INF] HTTP GET /polyfills.js responded
+{
+  "Elapsed": "2017.5213 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000007"
+}
+2020-06-09 09:52:12.415 +03:00 [INF] HTTP GET /main.js responded
+{
+  "Elapsed": "2007.5960 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000000B"
+}
+2020-06-09 09:52:12.417 +03:00 [INF] Request finished in 2024.3395ms 304 
+2020-06-09 09:52:12.421 +03:00 [INF] Request finished in 2028.4583ms 304 
+2020-06-09 09:52:12.424 +03:00 [INF] Request finished in 2019.0836ms 304 
+2020-06-09 09:52:12.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:52:12.436 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000011",
+  "Body": null
+}
+2020-06-09 09:52:12.439 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "3.4724 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000011"
+}
+2020-06-09 09:52:12.441 +03:00 [INF] Request finished in 7.417ms 304 
+2020-06-09 09:52:12.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:52:12.443 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000013",
+  "Body": null
+}
+2020-06-09 09:52:12.446 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "3.6414 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000013"
+}
+2020-06-09 09:52:12.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:52:12.450 +03:00 [INF] Request finished in 10.4362ms 304 
+2020-06-09 09:52:12.451 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000015",
+  "Body": null
+}
+2020-06-09 09:52:12.455 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "4.6605 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000015"
+}
+2020-06-09 09:52:12.458 +03:00 [INF] Request finished in 8.5346ms 304 
+2020-06-09 09:52:14.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/bg.png  
+2020-06-09 09:52:14.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/logo.svg  
+2020-06-09 09:52:14.124 +03:00 [INF] HTTP GET /assets/bg.png called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000017",
+  "Body": null
+}
+2020-06-09 09:52:14.125 +03:00 [INF] HTTP GET /assets/logo.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000019",
+  "Body": null
+}
+2020-06-09 09:52:14.129 +03:00 [INF] HTTP GET /assets/bg.png responded
+{
+  "Elapsed": "5.3346 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000017"
+}
+2020-06-09 09:52:14.129 +03:00 [INF] HTTP GET /assets/logo.svg responded
+{
+  "Elapsed": "4.4863 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000019"
+}
+2020-06-09 09:52:14.132 +03:00 [INF] Request finished in 19.8559ms 304 
+2020-06-09 09:52:14.134 +03:00 [INF] Request finished in 14.2385ms 304 
+2020-06-09 09:52:14.163 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ofont.ru_Comfortaa.ttf  
+2020-06-09 09:52:14.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/SFUIDisplay-Medium.ttf  
+2020-06-09 09:52:14.166 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000001D",
+  "Body": null
+}
+2020-06-09 09:52:14.166 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000001B",
+  "Body": null
+}
+2020-06-09 09:52:14.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685534166  
+2020-06-09 09:52:14.176 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf responded
+{
+  "Elapsed": "9.2680 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000001B"
+}
+2020-06-09 09:52:14.177 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf responded
+{
+  "Elapsed": "11.1575 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000001D"
+}
+2020-06-09 09:52:14.187 +03:00 [INF] Request finished in 23.2044ms 304 
+2020-06-09 09:52:14.182 +03:00 [INF] Request finished in 18.6817ms 304 
+2020-06-09 09:52:14.179 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000001F",
+  "Body": null
+}
+2020-06-09 09:52:14.196 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685534166 responded
+{
+  "Elapsed": "16.7320 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:0000001F"
+}
+2020-06-09 09:52:14.199 +03:00 [INF] Request finished in 24.9418ms 200 application/json; charset=UTF-8
+2020-06-09 09:52:14.211 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/443/wjoo34zd/websocket  
+2020-06-09 09:52:14.212 +03:00 [INF] HTTP GET /sockjs-node/443/wjoo34zd/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR5:00000001",
+  "Body": null
+}
+2020-06-09 09:52:14.899 +03:00 [INF] HTTP GET /sockjs-node/443/wjoo34zd/websocket responded
+{
+  "Elapsed": "686.9355 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR5:00000001"
+}
+2020-06-09 09:52:14.900 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/443/qi0jnmmt/xhr_streaming?t=1591685534896  0
+2020-06-09 09:52:14.903 +03:00 [INF] Request finished in 692.6662ms 0 
+2020-06-09 09:52:14.906 +03:00 [INF] HTTP POST /sockjs-node/443/qi0jnmmt/xhr_streaming called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000021",
+  "Body": null
+}
+2020-06-09 09:52:17.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/terms  
+2020-06-09 09:52:17.680 +03:00 [INF] HTTP GET /terms called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000023",
+  "Body": null
+}
+2020-06-09 09:52:17.686 +03:00 [INF] HTTP GET /terms responded
+{
+  "Elapsed": "6.1700 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000023"
+}
+2020-06-09 09:52:17.692 +03:00 [INF] Request finished in 14.294ms 200 text/html; charset=UTF-8
+2020-06-09 09:52:17.699 +03:00 [INF] HTTP POST /sockjs-node/443/qi0jnmmt/xhr_streaming?t=1591685534896 responded
+{
+  "Elapsed": "2794.5074 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000021"
+}
+2020-06-09 09:52:17.702 +03:00 [INF] Request finished in 2802.1309ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:52:17.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-06-09 09:52:17.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:52:17.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-06-09 09:52:17.722 +03:00 [INF] HTTP GET /polyfills.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000029",
+  "Body": null
+}
+2020-06-09 09:52:17.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-06-09 09:52:17.721 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000025",
+  "Body": null
+}
+2020-06-09 09:52:17.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-06-09 09:52:17.724 +03:00 [INF] HTTP GET /main.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000002D",
+  "Body": null
+}
+2020-06-09 09:52:17.725 +03:00 [INF] HTTP GET /runtime.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000027",
+  "Body": null
+}
+2020-06-09 09:52:17.730 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "9.2401 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000025"
+}
+2020-06-09 09:52:17.728 +03:00 [INF] HTTP GET /polyfills.js responded
+{
+  "Elapsed": "6.2760 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000029"
+}
+2020-06-09 09:52:17.726 +03:00 [INF] HTTP GET /vendor.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000002B",
+  "Body": null
+}
+2020-06-09 09:52:17.733 +03:00 [INF] Request finished in 15.9425ms 304 
+2020-06-09 09:52:17.736 +03:00 [INF] HTTP GET /main.js responded
+{
+  "Elapsed": "11.7002 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000002D"
+}
+2020-06-09 09:52:17.738 +03:00 [INF] Request finished in 20.5842ms 304 
+2020-06-09 09:52:17.740 +03:00 [INF] HTTP GET /runtime.js responded
+{
+  "Elapsed": "15.3800 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000027"
+}
+2020-06-09 09:52:17.743 +03:00 [INF] Request finished in 25.6125ms 304 
+2020-06-09 09:52:17.746 +03:00 [INF] Request finished in 29.409ms 304 
+2020-06-09 09:52:17.748 +03:00 [INF] HTTP GET /vendor.js responded
+{
+  "Elapsed": "21.3923 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000002B"
+}
+2020-06-09 09:52:17.750 +03:00 [INF] Request finished in 33.0466ms 304 
+2020-06-09 09:52:17.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:52:17.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:52:17.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:52:17.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:52:17.927 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000002F",
+  "Body": null
+}
+2020-06-09 09:52:17.928 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000031",
+  "Body": null
+}
+2020-06-09 09:52:17.929 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000033",
+  "Body": null
+}
+2020-06-09 09:52:17.930 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000035",
+  "Body": null
+}
+2020-06-09 09:52:17.935 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "8.9109 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000002F"
+}
+2020-06-09 09:52:17.937 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "9.4582 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000031"
+}
+2020-06-09 09:52:17.938 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "9.7417 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000033"
+}
+2020-06-09 09:52:17.940 +03:00 [INF] Request finished in 18.9641ms 304 
+2020-06-09 09:52:17.942 +03:00 [INF] Request finished in 18.3908ms 304 
+2020-06-09 09:52:17.945 +03:00 [INF] Request finished in 20.0233ms 304 
+2020-06-09 09:52:18.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/bg.png  
+2020-06-09 09:52:18.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/logo.svg  
+2020-06-09 09:52:18.253 +03:00 [INF] HTTP GET /assets/bg.png called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000037",
+  "Body": null
+}
+2020-06-09 09:52:18.254 +03:00 [INF] HTTP GET /assets/logo.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000039",
+  "Body": null
+}
+2020-06-09 09:52:18.258 +03:00 [INF] HTTP GET /assets/bg.png responded
+{
+  "Elapsed": "5.1086 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000037"
+}
+2020-06-09 09:52:18.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/back.svg  
+2020-06-09 09:52:18.261 +03:00 [INF] Request finished in 10.906ms 304 
+2020-06-09 09:52:18.262 +03:00 [INF] HTTP GET /assets/back.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000003B",
+  "Body": null
+}
+2020-06-09 09:52:18.266 +03:00 [INF] HTTP GET /assets/back.svg responded
+{
+  "Elapsed": "4.1822 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000003B"
+}
+2020-06-09 09:52:18.270 +03:00 [INF] Request finished in 9.5292ms 304 
+2020-06-09 09:52:18.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685538322  
+2020-06-09 09:52:18.329 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000003D",
+  "Body": null
+}
+2020-06-09 09:52:18.332 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685538322 responded
+{
+  "Elapsed": "2.6061 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:0000003D"
+}
+2020-06-09 09:52:18.334 +03:00 [INF] Request finished in 7.0622ms 200 application/json; charset=UTF-8
+2020-06-09 09:52:18.341 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/850/1fy2xufn/websocket  
+2020-06-09 09:52:18.342 +03:00 [INF] HTTP GET /sockjs-node/850/1fy2xufn/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR6:00000001",
+  "Body": null
+}
+2020-06-09 09:52:18.427 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:52:18.429 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000003F",
+  "Body": null
+}
+2020-06-09 09:52:18.440 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "10.4917 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000003F"
+}
+2020-06-09 09:52:18.443 +03:00 [INF] Request finished in 15.5607ms 304 
+2020-06-09 09:52:18.989 +03:00 [INF] HTTP GET /sockjs-node/850/1fy2xufn/websocket responded
+{
+  "Elapsed": "647.2027 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR6:00000001"
+}
+2020-06-09 09:52:18.990 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/850/reomhsh1/xhr_streaming?t=1591685538986  0
+2020-06-09 09:52:18.994 +03:00 [INF] Request finished in 653.1366ms 0 
+2020-06-09 09:52:18.996 +03:00 [INF] HTTP POST /sockjs-node/850/reomhsh1/xhr_streaming called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000041",
+  "Body": null
+}
+2020-06-09 09:52:19.945 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "2015.3915 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000035"
+}
+2020-06-09 09:52:19.950 +03:00 [INF] Request finished in 2024.8306ms 304 
+2020-06-09 09:52:20.262 +03:00 [INF] HTTP GET /assets/logo.svg responded
+{
+  "Elapsed": "2008.1653 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000039"
+}
+2020-06-09 09:52:20.268 +03:00 [INF] Request finished in 2016.3033ms 304 
+2020-06-09 09:55:02.541 +03:00 [INF] i я╜вwdmя╜г: Compiling...
+
+2020-06-09 09:55:03.279 +03:00 [INF] Date: 2020-06-09T06:55:03.277Z - Hash: 5bc8f6a39076aab0ecd7
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 57.3 kB [initial] [rendered]
+chunk {styles} styles.css, styles.css.map (styles) 159 kB [initial] [rendered]
+Time: 459ms
+
+2020-06-09 09:55:03.290 +03:00 [INF] i я╜вwdmя╜г: Compiled successfully.
+
+2020-06-09 09:55:03.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/terms  
+2020-06-09 09:55:03.371 +03:00 [INF] HTTP GET /terms called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000043",
+  "Body": null
+}
+2020-06-09 09:55:05.389 +03:00 [INF] HTTP GET /terms responded
+{
+  "Elapsed": "2018.3861 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000043"
+}
+2020-06-09 09:55:05.394 +03:00 [INF] Request finished in 2023.8336ms 304 
+2020-06-09 09:55:05.402 +03:00 [INF] HTTP POST /sockjs-node/850/reomhsh1/xhr_streaming?t=1591685538986 responded
+{
+  "Elapsed": "166407.1186 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000041"
+}
+2020-06-09 09:55:05.405 +03:00 [INF] Request finished in 166414.3338ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:05.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:55:05.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-06-09 09:55:05.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-06-09 09:55:05.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-06-09 09:55:05.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-06-09 09:55:05.457 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000045",
+  "Body": null
+}
+2020-06-09 09:55:05.457 +03:00 [INF] HTTP GET /runtime.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000047",
+  "Body": null
+}
+2020-06-09 09:55:05.457 +03:00 [INF] HTTP GET /polyfills.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000049",
+  "Body": null
+}
+2020-06-09 09:55:05.459 +03:00 [INF] HTTP GET /vendor.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000004B",
+  "Body": null
+}
+2020-06-09 09:55:05.459 +03:00 [INF] HTTP GET /main.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000004D",
+  "Body": null
+}
+2020-06-09 09:55:05.463 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "6.5205 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000045"
+}
+2020-06-09 09:55:05.468 +03:00 [INF] Request finished in 16.2168ms 304 
+2020-06-09 09:55:05.475 +03:00 [INF] HTTP GET /runtime.js responded
+{
+  "Elapsed": "18.2124 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000047"
+}
+2020-06-09 09:55:05.479 +03:00 [INF] Request finished in 27.1523ms 304 
+2020-06-09 09:55:05.485 +03:00 [INF] HTTP GET /polyfills.js responded
+{
+  "Elapsed": "27.8915 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000049"
+}
+2020-06-09 09:55:05.488 +03:00 [INF] Request finished in 35.8916ms 304 
+2020-06-09 09:55:05.497 +03:00 [INF] HTTP GET /main.js responded
+{
+  "Elapsed": "38.2382 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:0000004D"
+}
+2020-06-09 09:55:05.500 +03:00 [INF] Request finished in 46.6405ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:05.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:55:05.514 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000004F",
+  "Body": null
+}
+2020-06-09 09:55:05.517 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "2.5661 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000004F"
+}
+2020-06-09 09:55:05.519 +03:00 [INF] Request finished in 6.3791ms 304 
+2020-06-09 09:55:05.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:55:05.572 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000051",
+  "Body": null
+}
+2020-06-09 09:55:05.576 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "3.8315 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000051"
+}
+2020-06-09 09:55:05.614 +03:00 [INF] Request finished in 54.8254ms 304 
+2020-06-09 09:55:05.658 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:55:05.672 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000053",
+  "Body": null
+}
+2020-06-09 09:55:05.678 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "6.3514 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000053"
+}
+2020-06-09 09:55:05.680 +03:00 [INF] Request finished in 22.671ms 304 
+2020-06-09 09:55:05.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:55:05.763 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000055",
+  "Body": null
+}
+2020-06-09 09:55:05.767 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "4.6452 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000055"
+}
+2020-06-09 09:55:05.786 +03:00 [INF] Request finished in 24.3099ms 200 application/json; charset=UTF-8
+2020-06-09 09:55:07.513 +03:00 [INF] HTTP GET /vendor.js responded
+{
+  "Elapsed": "2054.8642 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000004B"
+}
+2020-06-09 09:55:07.516 +03:00 [INF] Request finished in 2062.7275ms 304 
+2020-06-09 09:55:07.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:55:07.804 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000057",
+  "Body": null
+}
+2020-06-09 09:55:07.817 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "12.9424 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000057"
+}
+2020-06-09 09:55:07.820 +03:00 [INF] Request finished in 28.6057ms 304 
+2020-06-09 09:55:08.132 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/bg.png  
+2020-06-09 09:55:08.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/logo.svg  
+2020-06-09 09:55:08.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/back.svg  
+2020-06-09 09:55:08.140 +03:00 [INF] HTTP GET /assets/bg.png called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000059",
+  "Body": null
+}
+2020-06-09 09:55:08.141 +03:00 [INF] HTTP GET /assets/logo.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000005B",
+  "Body": null
+}
+2020-06-09 09:55:08.142 +03:00 [INF] HTTP GET /assets/back.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000005D",
+  "Body": null
+}
+2020-06-09 09:55:08.164 +03:00 [INF] HTTP GET /assets/back.svg responded
+{
+  "Elapsed": "22.3952 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000005D"
+}
+2020-06-09 09:55:08.164 +03:00 [INF] HTTP GET /assets/logo.svg responded
+{
+  "Elapsed": "23.6383 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000005B"
+}
+2020-06-09 09:55:08.167 +03:00 [INF] HTTP GET /assets/bg.png responded
+{
+  "Elapsed": "28.0246 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000059"
+}
+2020-06-09 09:55:08.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ofont.ru_Comfortaa.ttf  
+2020-06-09 09:55:08.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/SFUIDisplay-Medium.ttf  
+2020-06-09 09:55:08.173 +03:00 [INF] Request finished in 39.0916ms 304 
+2020-06-09 09:55:08.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685708169  
+2020-06-09 09:55:08.177 +03:00 [INF] Request finished in 43.0546ms 304 
+2020-06-09 09:55:08.180 +03:00 [INF] Request finished in 47.8685ms 304 
+2020-06-09 09:55:08.181 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000005F",
+  "Body": null
+}
+2020-06-09 09:55:08.182 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000061",
+  "Body": null
+}
+2020-06-09 09:55:08.184 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000063",
+  "Body": null
+}
+2020-06-09 09:55:08.191 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf responded
+{
+  "Elapsed": "9.4606 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000061"
+}
+2020-06-09 09:55:08.192 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf responded
+{
+  "Elapsed": "10.8403 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000005F"
+}
+2020-06-09 09:55:08.195 +03:00 [INF] Request finished in 23.876ms 304 
+2020-06-09 09:55:08.197 +03:00 [INF] Request finished in 26.2743ms 304 
+2020-06-09 09:55:08.200 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685708169 responded
+{
+  "Elapsed": "16.2577 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000063"
+}
+2020-06-09 09:55:08.203 +03:00 [INF] Request finished in 29.2376ms 200 application/json; charset=UTF-8
+2020-06-09 09:55:08.217 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/727/bwtnbeee/websocket  
+2020-06-09 09:55:08.221 +03:00 [INF] HTTP GET /sockjs-node/727/bwtnbeee/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR7:00000001",
+  "Body": null
+}
+2020-06-09 09:55:08.891 +03:00 [INF] HTTP GET /sockjs-node/727/bwtnbeee/websocket responded
+{
+  "Elapsed": "669.6167 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR7:00000001"
+}
+2020-06-09 09:55:08.894 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/727/z42zxte0/xhr_streaming?t=1591685708891  0
+2020-06-09 09:55:08.895 +03:00 [INF] Request finished in 678.5369ms 0 
+2020-06-09 09:55:08.896 +03:00 [INF] HTTP POST /sockjs-node/727/z42zxte0/xhr_streaming called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000065",
+  "Body": null
+}
+2020-06-09 09:55:22.590 +03:00 [INF] i я╜вwdmя╜г: Compiling...
+
+2020-06-09 09:55:23.089 +03:00 [INF] Date: 2020-06-09T06:55:23.084Z - Hash: 6b4efd798f6be8991e1b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 57.3 kB [initial] [rendered]
+Time: 197ms
+
+2020-06-09 09:55:23.094 +03:00 [INF] i я╜вwdmя╜г: Compiled successfully.
+
+2020-06-09 09:55:23.115 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/terms  
+2020-06-09 09:55:23.116 +03:00 [INF] HTTP GET /terms called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000067",
+  "Body": null
+}
+2020-06-09 09:55:25.127 +03:00 [INF] HTTP GET /terms responded
+{
+  "Elapsed": "2010.7317 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000067"
+}
+2020-06-09 09:55:25.130 +03:00 [INF] Request finished in 2015.7749ms 304 
+2020-06-09 09:55:25.139 +03:00 [INF] HTTP POST /sockjs-node/727/z42zxte0/xhr_streaming?t=1591685708891 responded
+{
+  "Elapsed": "16243.4311 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000065"
+}
+2020-06-09 09:55:25.142 +03:00 [INF] Request finished in 16248.8821ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:25.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:55:25.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-06-09 09:55:25.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-06-09 09:55:25.169 +03:00 [INF] HTTP GET /polyfills.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000006D",
+  "Body": null
+}
+2020-06-09 09:55:25.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-06-09 09:55:25.166 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000069",
+  "Body": null
+}
+2020-06-09 09:55:25.173 +03:00 [INF] HTTP GET /polyfills.js responded
+{
+  "Elapsed": "3.8717 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000006D"
+}
+2020-06-09 09:55:25.180 +03:00 [INF] Request finished in 15.9992ms 304 
+2020-06-09 09:55:25.181 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "15.1003 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000069"
+}
+2020-06-09 09:55:25.167 +03:00 [INF] HTTP GET /runtime.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000006B",
+  "Body": null
+}
+2020-06-09 09:55:25.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-06-09 09:55:25.171 +03:00 [INF] HTTP GET /main.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000071",
+  "Body": null
+}
+2020-06-09 09:55:25.185 +03:00 [INF] Request finished in 21.4049ms 304 
+2020-06-09 09:55:25.187 +03:00 [INF] HTTP GET /vendor.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000006F",
+  "Body": null
+}
+2020-06-09 09:55:25.189 +03:00 [INF] HTTP GET /runtime.js responded
+{
+  "Elapsed": "21.7348 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000006B"
+}
+2020-06-09 09:55:25.190 +03:00 [INF] HTTP GET /main.js responded
+{
+  "Elapsed": "19.6621 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000071"
+}
+2020-06-09 09:55:25.197 +03:00 [INF] Request finished in 33.1163ms 304 
+2020-06-09 09:55:25.200 +03:00 [INF] Request finished in 36.1465ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:25.203 +03:00 [INF] HTTP GET /vendor.js responded
+{
+  "Elapsed": "15.9653 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000006F"
+}
+2020-06-09 09:55:25.206 +03:00 [INF] Request finished in 41.812ms 304 
+2020-06-09 09:55:25.288 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:55:25.290 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000073",
+  "Body": null
+}
+2020-06-09 09:55:25.294 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "3.7269 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000073"
+}
+2020-06-09 09:55:25.296 +03:00 [INF] Request finished in 8.7197ms 304 
+2020-06-09 09:55:25.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:55:25.319 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:55:25.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:55:25.323 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000075",
+  "Body": null
+}
+2020-06-09 09:55:25.323 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000077",
+  "Body": null
+}
+2020-06-09 09:55:25.324 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000079",
+  "Body": null
+}
+2020-06-09 09:55:25.326 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "3.9726 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000075"
+}
+2020-06-09 09:55:25.331 +03:00 [INF] Request finished in 11.759ms 200 application/json; charset=UTF-8
+2020-06-09 09:55:25.334 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "10.7106 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000077"
+}
+2020-06-09 09:55:25.335 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "11.8296 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000079"
+}
+2020-06-09 09:55:25.338 +03:00 [INF] Request finished in 18.3691ms 304 
+2020-06-09 09:55:25.344 +03:00 [INF] Request finished in 23.0706ms 304 
+2020-06-09 09:55:25.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:55:25.637 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000007B",
+  "Body": null
+}
+2020-06-09 09:55:25.647 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "10.7577 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000007B"
+}
+2020-06-09 09:55:25.650 +03:00 [INF] Request finished in 39.9036ms 304 
+2020-06-09 09:55:25.911 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/bg.png  
+2020-06-09 09:55:25.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/logo.svg  
+2020-06-09 09:55:25.916 +03:00 [INF] HTTP GET /assets/logo.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000007F",
+  "Body": null
+}
+2020-06-09 09:55:25.916 +03:00 [INF] HTTP GET /assets/bg.png called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000007D",
+  "Body": null
+}
+2020-06-09 09:55:25.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/back.svg  
+2020-06-09 09:55:25.922 +03:00 [INF] HTTP GET /assets/bg.png responded
+{
+  "Elapsed": "6.7356 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000007D"
+}
+2020-06-09 09:55:25.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ofont.ru_Comfortaa.ttf  
+2020-06-09 09:55:25.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/SFUIDisplay-Medium.ttf  
+2020-06-09 09:55:25.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685725946  
+2020-06-09 09:55:25.968 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000087",
+  "Body": null
+}
+2020-06-09 09:55:25.966 +03:00 [INF] Request finished in 54.579ms 304 
+2020-06-09 09:55:25.967 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000083",
+  "Body": null
+}
+2020-06-09 09:55:25.968 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000085",
+  "Body": null
+}
+2020-06-09 09:55:25.964 +03:00 [INF] HTTP GET /assets/back.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000081",
+  "Body": null
+}
+2020-06-09 09:55:25.974 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685725946 responded
+{
+  "Elapsed": "5.7929 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000087"
+}
+2020-06-09 09:55:25.983 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf responded
+{
+  "Elapsed": "15.4412 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000085"
+}
+2020-06-09 09:55:25.981 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf responded
+{
+  "Elapsed": "14.9030 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000083"
+}
+2020-06-09 09:55:25.983 +03:00 [INF] Request finished in 22.6634ms 200 application/json; charset=UTF-8
+2020-06-09 09:55:25.987 +03:00 [INF] HTTP GET /assets/back.svg responded
+{
+  "Elapsed": "22.8236 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000081"
+}
+2020-06-09 09:55:25.996 +03:00 [INF] Request finished in 67.2781ms 304 
+2020-06-09 09:55:25.995 +03:00 [INF] Request finished in 61.7872ms 304 
+2020-06-09 09:55:26.000 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/674/l1jr2shg/websocket  
+2020-06-09 09:55:26.005 +03:00 [INF] Request finished in 85.2669ms 304 
+2020-06-09 09:55:26.007 +03:00 [INF] HTTP GET /sockjs-node/674/l1jr2shg/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR8:00000001",
+  "Body": null
+}
+2020-06-09 09:55:26.680 +03:00 [INF] HTTP GET /sockjs-node/674/l1jr2shg/websocket responded
+{
+  "Elapsed": "672.5131 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR8:00000001"
+}
+2020-06-09 09:55:26.684 +03:00 [INF] Request finished in 683.4201ms 0 
+2020-06-09 09:55:26.686 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/674/44wylhtf/xhr_streaming?t=1591685726681  0
+2020-06-09 09:55:26.687 +03:00 [INF] HTTP POST /sockjs-node/674/44wylhtf/xhr_streaming called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000089",
+  "Body": null
+}
+2020-06-09 09:55:27.932 +03:00 [INF] HTTP GET /assets/logo.svg responded
+{
+  "Elapsed": "2016.8462 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000007F"
+}
+2020-06-09 09:55:27.936 +03:00 [INF] Request finished in 2023.0489ms 304 
+2020-06-09 09:55:35.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/terms  
+2020-06-09 09:55:35.538 +03:00 [INF] HTTP GET /terms called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000008B",
+  "Body": null
+}
+2020-06-09 09:55:37.545 +03:00 [INF] HTTP GET /terms responded
+{
+  "Elapsed": "2006.9273 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:0000008B"
+}
+2020-06-09 09:55:37.552 +03:00 [INF] Request finished in 2015.3128ms 200 text/html; charset=UTF-8
+2020-06-09 09:55:37.556 +03:00 [INF] HTTP POST /sockjs-node/674/44wylhtf/xhr_streaming?t=1591685726681 responded
+{
+  "Elapsed": "10868.7072 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000089"
+}
+2020-06-09 09:55:37.566 +03:00 [INF] Request finished in 10880.059ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:37.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css  
+2020-06-09 09:55:37.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js  
+2020-06-09 09:55:37.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js  
+2020-06-09 09:55:37.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js  
+2020-06-09 09:55:37.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js  
+2020-06-09 09:55:37.648 +03:00 [INF] HTTP GET /styles.css called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000008D",
+  "Body": null
+}
+2020-06-09 09:55:37.650 +03:00 [INF] HTTP GET /runtime.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000008F",
+  "Body": null
+}
+2020-06-09 09:55:37.659 +03:00 [INF] HTTP GET /vendor.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000093",
+  "Body": null
+}
+2020-06-09 09:55:37.658 +03:00 [INF] HTTP GET /polyfills.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000091",
+  "Body": null
+}
+2020-06-09 09:55:37.663 +03:00 [INF] HTTP GET /main.js called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000095",
+  "Body": null
+}
+2020-06-09 09:55:37.678 +03:00 [INF] HTTP GET /styles.css responded
+{
+  "Elapsed": "29.6625 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:0000008D"
+}
+2020-06-09 09:55:37.684 +03:00 [INF] HTTP GET /polyfills.js responded
+{
+  "Elapsed": "25.3870 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000091"
+}
+2020-06-09 09:55:37.685 +03:00 [INF] HTTP GET /main.js responded
+{
+  "Elapsed": "22.0344 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000095"
+}
+2020-06-09 09:55:37.691 +03:00 [INF] Request finished in 44.8001ms 200 text/css; charset=UTF-8
+2020-06-09 09:55:37.701 +03:00 [INF] Request finished in 54.3887ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:37.704 +03:00 [INF] Request finished in 58.0081ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:37.742 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:55:37.744 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000097",
+  "Body": null
+}
+2020-06-09 09:55:37.747 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "3.4038 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000097"
+}
+2020-06-09 09:55:37.756 +03:00 [INF] Request finished in 13.7262ms 304 
+2020-06-09 09:55:37.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:55:37.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:55:37.894 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:00000099",
+  "Body": null
+}
+2020-06-09 09:55:37.895 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000009B",
+  "Body": null
+}
+2020-06-09 09:55:37.898 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "4.3390 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:00000099"
+}
+2020-06-09 09:55:37.899 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "4.4505 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000009B"
+}
+2020-06-09 09:55:37.910 +03:00 [INF] Request finished in 18.7178ms 304 
+2020-06-09 09:55:37.906 +03:00 [INF] Request finished in 14.4586ms 304 
+2020-06-09 09:55:39.676 +03:00 [INF] HTTP GET /runtime.js responded
+{
+  "Elapsed": "2025.9889 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:0000008F"
+}
+2020-06-09 09:55:39.685 +03:00 [INF] Request finished in 2038.5834ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:39.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:55:39.699 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000009D",
+  "Body": null
+}
+2020-06-09 09:55:39.704 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "4.8663 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000009D"
+}
+2020-06-09 09:55:39.712 +03:00 [INF] Request finished in 20.2529ms 304 
+2020-06-09 09:55:39.714 +03:00 [INF] HTTP GET /vendor.js responded
+{
+  "Elapsed": "2055.6519 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:00000093"
+}
+2020-06-09 09:55:39.721 +03:00 [INF] Request finished in 2075.1153ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:39.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:55:39.979 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:0000009F",
+  "Body": null
+}
+2020-06-09 09:55:39.987 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "8.7195 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:0000009F"
+}
+2020-06-09 09:55:39.991 +03:00 [INF] Request finished in 13.8487ms 304 
+2020-06-09 09:55:40.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/bg.png  
+2020-06-09 09:55:40.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/logo.svg  
+2020-06-09 09:55:40.285 +03:00 [INF] HTTP GET /assets/bg.png called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000A1",
+  "Body": null
+}
+2020-06-09 09:55:40.286 +03:00 [INF] HTTP GET /assets/logo.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000A3",
+  "Body": null
+}
+2020-06-09 09:55:40.291 +03:00 [INF] HTTP GET /assets/logo.svg responded
+{
+  "Elapsed": "4.7360 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000A3"
+}
+2020-06-09 09:55:40.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/assets/back.svg  
+2020-06-09 09:55:40.300 +03:00 [INF] HTTP GET /assets/back.svg called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000A5",
+  "Body": null
+}
+2020-06-09 09:55:40.297 +03:00 [INF] HTTP GET /assets/bg.png responded
+{
+  "Elapsed": "11.9728 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000A1"
+}
+2020-06-09 09:55:40.299 +03:00 [INF] Request finished in 15.4468ms 200 image/svg+xml; charset=UTF-8
+2020-06-09 09:55:40.305 +03:00 [INF] Request finished in 21.8049ms 200 image/png; charset=UTF-8
+2020-06-09 09:55:40.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ofont.ru_Comfortaa.ttf  
+2020-06-09 09:55:40.305 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/SFUIDisplay-Medium.ttf  
+2020-06-09 09:55:40.306 +03:00 [INF] HTTP GET /assets/back.svg responded
+{
+  "Elapsed": "6.3432 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000A5"
+}
+2020-06-09 09:55:40.308 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000A7",
+  "Body": null
+}
+2020-06-09 09:55:40.309 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000A9",
+  "Body": null
+}
+2020-06-09 09:55:40.313 +03:00 [INF] Request finished in 16.2096ms 200 image/svg+xml; charset=UTF-8
+2020-06-09 09:55:40.324 +03:00 [INF] HTTP GET /ofont.ru_Comfortaa.ttf responded
+{
+  "Elapsed": "16.2814 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000A7"
+}
+2020-06-09 09:55:40.330 +03:00 [INF] Request finished in 25.8836ms 200 font/ttf; charset=UTF-8
+2020-06-09 09:55:40.332 +03:00 [INF] HTTP GET /SFUIDisplay-Medium.ttf responded
+{
+  "Elapsed": "23.0975 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000A9"
+}
+2020-06-09 09:55:40.347 +03:00 [INF] Request finished in 41.5606ms 200 font/ttf; charset=UTF-8
+2020-06-09 09:55:40.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685740340  
+2020-06-09 09:55:40.351 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000AB",
+  "Body": null
+}
+2020-06-09 09:55:40.355 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685740340 responded
+{
+  "Elapsed": "3.3429 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000AB"
+}
+2020-06-09 09:55:40.358 +03:00 [INF] Request finished in 7.7782ms 200 application/json; charset=UTF-8
+2020-06-09 09:55:40.374 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/176/fn1h3gm0/websocket  
+2020-06-09 09:55:40.375 +03:00 [INF] HTTP GET /sockjs-node/176/fn1h3gm0/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR9:00000001",
+  "Body": null
+}
+2020-06-09 09:55:40.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-06-09 09:55:40.409 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\vyach\source\repos\JustDo\wwwroot\favicon.ico'
+2020-06-09 09:55:40.413 +03:00 [INF] Request finished in 27.86ms 200 image/x-icon
+2020-06-09 09:55:41.049 +03:00 [INF] HTTP GET /sockjs-node/176/fn1h3gm0/websocket responded
+{
+  "Elapsed": "674.8140 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR9:00000001"
+}
+2020-06-09 09:55:41.053 +03:00 [INF] Request finished in 679.3225ms 0 
+2020-06-09 09:55:41.054 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/sockjs-node/176/wzsi3rku/xhr_streaming?t=1591685741050  0
+2020-06-09 09:55:41.055 +03:00 [INF] HTTP POST /sockjs-node/176/wzsi3rku/xhr_streaming called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000AF",
+  "Body": null
+}
+2020-06-09 09:55:45.575 +03:00 [INF] HTTP POST /sockjs-node/176/wzsi3rku/xhr_streaming?t=1591685741050 responded
+{
+  "Elapsed": "4519.9836 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000AF"
+}
+2020-06-09 09:55:45.579 +03:00 [INF] Request finished in 4525.7858ms 200 application/javascript; charset=UTF-8
+2020-06-09 09:55:45.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/styles.css.map  
+2020-06-09 09:55:45.706 +03:00 [INF] HTTP GET /styles.css.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000B1",
+  "Body": null
+}
+2020-06-09 09:55:45.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/runtime.js.map  
+2020-06-09 09:55:45.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/main.js.map  
+2020-06-09 09:55:45.730 +03:00 [INF] HTTP GET /main.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000B5",
+  "Body": null
+}
+2020-06-09 09:55:45.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/polyfills.js.map  
+2020-06-09 09:55:45.729 +03:00 [INF] HTTP GET /runtime.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000B3",
+  "Body": null
+}
+2020-06-09 09:55:45.732 +03:00 [INF] HTTP GET /polyfills.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000B7",
+  "Body": null
+}
+2020-06-09 09:55:46.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/vendor.js.map  
+2020-06-09 09:55:46.003 +03:00 [INF] HTTP GET /vendor.js.map called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000B9",
+  "Body": null
+}
+2020-06-09 09:55:46.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/sockjs-node/info?t=1591685746318  
+2020-06-09 09:55:46.349 +03:00 [INF] HTTP GET /sockjs-node/info called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RR4:000000BB",
+  "Body": null
+}
+2020-06-09 09:55:47.718 +03:00 [INF] HTTP GET /styles.css.map responded
+{
+  "Elapsed": "2011.1276 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:000000B1"
+}
+2020-06-09 09:55:47.721 +03:00 [INF] Request finished in 2016.8871ms 304 
+2020-06-09 09:55:47.742 +03:00 [INF] HTTP GET /main.js.map responded
+{
+  "Elapsed": "2011.8826 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:000000B5"
+}
+2020-06-09 09:55:47.745 +03:00 [INF] HTTP GET /polyfills.js.map responded
+{
+  "Elapsed": "2013.2098 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:000000B7"
+}
+2020-06-09 09:55:47.746 +03:00 [INF] HTTP GET /runtime.js.map responded
+{
+  "Elapsed": "2016.8917 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:000000B3"
+}
+2020-06-09 09:55:47.746 +03:00 [INF] Request finished in 2018.4129ms 304 
+2020-06-09 09:55:47.749 +03:00 [INF] Request finished in 2019.8611ms 304 
+2020-06-09 09:55:47.752 +03:00 [INF] Request finished in 2037.8243ms 304 
+2020-06-09 09:55:48.016 +03:00 [INF] HTTP GET /vendor.js.map responded
+{
+  "Elapsed": "2013.1160 ms",
+  "Status": "304",
+  "RequestId": "0HM0C86AJ8RR4:000000B9"
+}
+2020-06-09 09:55:48.019 +03:00 [INF] Request finished in 2019.1751ms 304 
+2020-06-09 09:55:48.358 +03:00 [INF] HTTP GET /sockjs-node/info?t=1591685746318 responded
+{
+  "Elapsed": "2012.2032 ms",
+  "Status": "200",
+  "RequestId": "0HM0C86AJ8RR4:000000BB"
+}
+2020-06-09 09:55:48.363 +03:00 [INF] Request finished in 2022.7046ms 200 application/json; charset=UTF-8
+2020-06-09 09:55:48.371 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/485/f0mnqxks/websocket  
+2020-06-09 09:55:48.373 +03:00 [INF] HTTP GET /sockjs-node/485/f0mnqxks/websocket called 
+{
+  "User": "Anonymous",
+  "RequestId": "0HM0C86AJ8RRA:00000001",
+  "Body": null
+}
+2020-06-09 09:55:55.150 +03:00 [INF] HTTP GET /sockjs-node/485/f0mnqxks/websocket responded
+{
+  "Elapsed": "6777.7538 ms",
+  "Status": "101",
+  "RequestId": "0HM0C86AJ8RRA:00000001"
+}
+2020-06-09 09:55:55.153 +03:00 [INF] Request finished in 6782.0457ms 101 

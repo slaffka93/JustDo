@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Serilog;
-using Serilog.Events;
 
 namespace JustDo
 {
@@ -17,7 +16,6 @@ namespace JustDo
 
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(config)
-                .MinimumLevel.Override("Microsoft", LogEventLevel.Fatal)
                 .CreateLogger();
 
             CreateHostBuilder(args).Build().Run();
